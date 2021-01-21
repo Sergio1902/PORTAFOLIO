@@ -1,0 +1,205 @@
+/* MEDIA QUERY RESPONSIVE */
+@media screen and (max-width: 1040px){
+    .slider-content{
+        height: 85vh;
+    }
+    .experience-card-global .experience-card{
+        width: 200px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .about-me-content{
+        flex-direction: column-reverse;
+        padding: 10px 70px 0;
+    }
+    .about-me-content>figure{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: -30px;
+    }
+    .about-me-content .about-me-text{
+        width: 100%;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .about-me-content .about-me-text p{
+        font-size: 15px;
+    }
+    .about-me-content .about-me-text .text-redes{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .acordeon-item-content>span{
+        font-size: 14px;
+    }
+    .academic-training-card{
+        width: 220px;
+    }
+    .academic-training-card-global{
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width: 920px){
+    .slider-content{
+        height: 80vh;
+    }
+    .experience-card-global{
+        padding: 0 100px;
+    }
+    .experience-card-global .experience-card{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .experience-card h3{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 826px){
+    .slider-content{
+        height: 80vh;
+        padding: 20px;
+    }
+    .slider h1{
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    .slider h2{
+        font-size: 25px;
+    }
+
+
+    .pan-content{
+        margin-bottom: 40px;
+    }
+    .pan-content .pan-primer span{
+        font-size: 13px;
+    } 
+    .pan-content .pan-primer figure{
+        width: 65px;
+        height: 65px;
+    }
+    .pan-content .pan-primer figure>img{
+        width: 60px;
+        height: 60px;
+    }
+ 
+    .about-me-content{
+        padding: 10px 30px 0;
+    }
+    .experience-card-global{
+        padding: 0 50px;
+    }
+
+    .acordeon{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .acordeon-box{
+        margin: 0 auto;
+    }
+    .acordeon-title{
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width: 720px){
+
+    .about-me-content{
+        flex-direction: column-reverse;
+        padding: 10px 0 0;
+    }
+    .about-me-content .about-me-text .text-redes{
+        flex-direction: column;
+    }
+    .about-me-enlaces{
+        padding-left: 0;
+    }
+
+    .main-skills, .main-experience{
+        padding: 50px 0;
+    }
+   
+    .acordeon-item-content{
+        text-align: left;   
+        line-height: 16px;
+    }
+    .footer{
+        flex-direction: column;   
+    }
+    .footer-card{
+        width: 100%;
+        height: 20vh;
+        padding: 30px;    
+    }
+
+    .pan-content .pan-primer span{
+        font-size: 13px;
+    } 
+    .pan-content .pan-primer figure{
+        width: 55px;
+        height: 55px;
+    }
+    .pan-content .pan-primer figure>img{
+        width: 50px;
+        height: 50px;
+    }
+    .pan-content .pan-primer:not(:last-child){
+        margin-right: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 658px){
+
+    .slider-content{
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .pan-content .pan-primer span{
+        font-size: 13px;
+    } 
+    .pan-content .pan-primer figure{
+        width: 40px;
+        height: 40px;
+    }
+    .pan-content .pan-primer figure>img{
+        width: 35px;
+        height: 35px;
+    }
+    .pan-content .pan-primer:not(:last-child){
+        margin-right: 25px;
+    }
+    .pan-content .pan-primer:not(:last-child){
+        margin-right: 10px;
+    }
+
+
+
+
+    .btn-hamburguesa{
+        right: 20px;
+        top: 80vh;
+    }
+    .hamburger-inner, 
+    .hamburger-inner::before,
+    .hamburger-inner::after,
+    .hamburger.is-active .hamburger-inner, 
+    .hamburger.is-active .hamburger-inner:after, 
+    .hamburger.is-active .hamburger-inner:before{
+     background-color: white;  
+    }
+}
