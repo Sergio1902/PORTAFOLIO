@@ -1,7 +1,7 @@
 /* MEDIA QUERY RESPONSIVE */
 @media screen and (max-width: 1040px){
     .slider-content{
-        height: 85vh;
+        height: 86vh;
     }
     .experience-card-global .experience-card{
         width: 200px;
@@ -14,6 +14,10 @@
     }
 }
 @media screen and (max-width: 1024px){
+
+    .pan-content{
+        top: -6%;
+    }
     .about-me-content{
         flex-direction: column-reverse;
         padding: 10px 70px 0;
@@ -51,7 +55,10 @@
 }
 @media screen and (max-width: 920px){
     .slider-content{
-        height: 80vh;
+        height: 85vh;
+    }
+    .pan-content{
+        top: -5%;
     }
     .experience-card-global{
         padding: 0 100px;
@@ -81,6 +88,7 @@
 
     .pan-content{
         margin-bottom: 40px;
+        
     }
     .pan-content .pan-primer span{
         font-size: 13px;
@@ -159,6 +167,7 @@
     .pan-content .pan-primer:not(:last-child){
         margin-right: 25px;
     }
+
     
 }
 
@@ -168,7 +177,6 @@
         height: 70vh;
         padding: 20px;
     }
-
     .pan-content .pan-primer span{
         font-size: 13px;
     } 
@@ -186,10 +194,6 @@
     .pan-content .pan-primer:not(:last-child){
         margin-right: 10px;
     }
-
-
-
-
     .btn-hamburguesa{
         right: 20px;
         top: 80vh;

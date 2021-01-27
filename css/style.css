@@ -93,31 +93,35 @@ ul{
 /****************************
         MAIN-PAN
 ****************************/
+#redes-sociales{
+    position: relative;
+    padding: 100px 0 0;
+}
 .pan-content{
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 600px;
     width: 100%;
     height: 100px;
-    margin: -6% auto 70px;
-    padding: 0 20px;
     background-color: transparent;
     display: flex;
     justify-content: center; 
     align-items: center;
     flex-wrap: wrap;
-    border-radius: 12px;
 }
 .pan-content .pan-primer{
     text-align: center;
     transition: all 0.2s ease-in-out;
-    margin-top: 20px;
 }
 .pan-content .pan-primer span{
     font-family: var(--font2);
     color: #333560;
 }
 .pan-content .pan-primer figure{
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -127,8 +131,8 @@ ul{
     margin-bottom: 10px;
 }
 .pan-content .pan-primer figure>img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 .pan-content .pan-primer:not(:last-child){
     margin-right: 40px;
