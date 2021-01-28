@@ -1,7 +1,9 @@
 /* MEDIA QUERY RESPONSIVE */
 @media screen and (max-width: 1040px){
+
     .slider-content{
         height: 86vh;
+        padding: 0 30px;
     }
     .experience-card-global .experience-card{
         width: 200px;
@@ -177,6 +179,9 @@
         height: 70vh;
         padding: 20px;
     }
+    .main-about-me{
+        padding: 50px 0 0;
+    }
     .pan-content .pan-primer span{
         font-size: 13px;
     } 
@@ -196,7 +201,7 @@
     }
     .btn-hamburguesa{
         right: 20px;
-        top: 80vh;
+        top: 90vh;
     }
     .hamburger-inner, 
     .hamburger-inner::before,
@@ -205,5 +210,9 @@
     .hamburger.is-active .hamburger-inner:after, 
     .hamburger.is-active .hamburger-inner:before{
      background-color: white;  
+    }
+
+    .experience-card{
+        width: 240px;
     }
 }
