@@ -90,10 +90,9 @@ ul{
     margin-bottom: 35px;   
     font-family: var(--font1);
 }
-
 .pan-content{
     position: absolute;
-    bottom: -8%;
+    bottom: -10%;
     left: 50%;
     transform: translateX(-50%);
     max-width: 600px;
@@ -136,10 +135,6 @@ ul{
     margin-top: -15px;
     transition: all 0.2s ease-in-out;
 }
-
-/****************************
-        MAIN-PAN
-****************************/
 #redes-sociales{
     position: relative;
     padding: 60px 0 0;
@@ -217,7 +212,6 @@ ul{
     opacity: 0;
     background-image: url(../IMG/fondo-icon-after.png);
     transition: all 0.5s ease-in-out; 
-
 }
 .about-me-enlaces a:not(:last-child){
     margin-right: 20px;
@@ -309,7 +303,7 @@ ul{
     margin: 100px 0 0;
 }
 .acordeon{
-    height: 250px;
+    height: 270px;
     padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -317,6 +311,7 @@ ul{
 .acordeon-box{
     max-width: 500px;
     width: 100%;
+    padding: 0 30px;
 }
 .acordeon-item{
     border-bottom: 2px solid white;
@@ -324,7 +319,7 @@ ul{
 .acordeon-title{
     position: relative;
     background-color: #333560;
-    padding: 12px;
+    padding: 10px;
     color: white;
     font-weight: 700;
     font-family:var(--font2);
@@ -352,6 +347,7 @@ ul{
     opacity: 1;
     margin: 0 7px;
     padding: 12px 20px;
+    font-size: 15px;
 }
 .acordeon-item>p.active{
     background-color: #4e518d;

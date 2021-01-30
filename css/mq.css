@@ -1,6 +1,5 @@
 /* MEDIA QUERY RESPONSIVE */
 @media screen and (max-width: 1040px){
-
     .slider-content{
         height: 86vh;
         padding: 0 30px;
@@ -18,7 +17,7 @@
 @media screen and (max-width: 1024px){
 
     .pan-content{
-        top: -6%;
+        bottom: -10%;
     }
     .about-me-content{
         flex-direction: column-reverse;
@@ -33,7 +32,6 @@
         width: 100%;
         padding: 0 40px;
         text-align: center;
-        font-size: 15px;
     }
     .about-me-content .about-me-text p{
         font-size: 15px;
@@ -60,7 +58,7 @@
         height: 85vh;
     }
     .pan-content{
-        top: -5%;
+        bottom: -12%;
     }
     .experience-card-global{
         padding: 0 100px;
@@ -86,12 +84,6 @@
     .slider h2{
         font-size: 25px;
     }
-
-
-    .pan-content{
-        margin-bottom: 40px;
-        
-    }
     .pan-content .pan-primer span{
         font-size: 13px;
     } 
@@ -103,19 +95,17 @@
         width: 60px;
         height: 60px;
     }
- 
     .about-me-content{
         padding: 10px 30px 0;
     }
     .experience-card-global{
         padding: 0 50px;
     }
-
     .acordeon{
-        padding: 40px;
+        height: 450px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .acordeon-box{
         margin: 0 auto;
@@ -137,8 +127,7 @@
     .about-me-enlaces{
         padding-left: 0;
     }
-
-    .main-skills, .main-experience{
+    .main-experience{
         padding: 50px 0;
     }
    
@@ -146,15 +135,6 @@
         text-align: left;   
         line-height: 16px;
     }
-    .footer{
-        flex-direction: column;   
-    }
-    .footer-card{
-        width: 100%;
-        height: 20vh;
-        padding: 30px;    
-    }
-
     .pan-content .pan-primer span{
         font-size: 13px;
     } 
@@ -168,40 +148,123 @@
     }
     .pan-content .pan-primer:not(:last-child){
         margin-right: 25px;
+    } 
+    .footer{
+        flex-direction: column;   
     }
-
-    
+    .footer-card{
+        width: 100%;
+        height: 10vh;
+        flex-direction: row;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .footer-card i{
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 658px){
 
     .slider-content{
-        height: 70vh;
+        height: 82vh;
         padding: 20px;
     }
+    .slider h2{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .title2 h2, .title h2{
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    #redes-sociales{
+        padding-top: 0;
+    }
+    .main-academic-training{
+        padding: 50px 0;
+    }
+    .main-skills{
+        margin: 50px 0 0;
+    }
+    .main-responsive{
+        padding: 50px 0;
+    }
+    .responsive-content{
+        padding: 0;
+    }
+    .about-me-content{
+        padding: 0;
+    }
+    .about-me-text{
+        padding: 0;
+    }
+    .academic-training-card-global{
+        margin-top: 0;
+    }
+    .about-me-content .about-me-text p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .about-me-content .about-me-text .text-redes{
+        font-size: 10px;
+    }
+
+    /* acordeon */
+    .acordeon{
+        height: 350px;
+    }
+    .acordeon-title{
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+    .active + .acordeon-item-content{
+        padding: 5px 15px;
+    }
+    .acordeon-item-content span{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+
+
     .main-about-me{
         padding: 50px 0 0;
+    }
+    .about-me-content .about-me-text p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .about-me-content .about-me-text .text-redes{
+        font-size: 13px;
+    }
+    .acordeon-img{
+        width: 70%;
+        margin: 0 auto;
     }
     .pan-content .pan-primer span{
         font-size: 13px;
     } 
     .pan-content .pan-primer figure{
+        width: 50px;
+        height: 50px;
+    }
+    .pan-content .pan-primer figure>img{
         width: 40px;
         height: 40px;
     }
-    .pan-content .pan-primer figure>img{
-        width: 35px;
-        height: 35px;
+    .pan-content .pan-primer:not(:last-child){
+        margin-right: 35px;
     }
     .pan-content .pan-primer:not(:last-child){
-        margin-right: 25px;
-    }
-    .pan-content .pan-primer:not(:last-child){
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .btn-hamburguesa{
+        width: 70px;
+        height: 70px;
         right: 20px;
-        top: 90vh;
+        bottom: 50px;
     }
     .hamburger-inner, 
     .hamburger-inner::before,
@@ -211,8 +274,71 @@
     .hamburger.is-active .hamburger-inner:before{
      background-color: white;  
     }
-
     .experience-card{
         width: 240px;
     }
+}
+@media screen and (max-width: 500px){
+
+    .pan-content{
+        bottom: -15%;
+    }
+    .slider-content{
+        height: 70vh;
+        padding: 20px;
+    }
+    .slider h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+    h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h4{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    
+
+
+    .main-about-me{
+        padding: 50px 0 0;
+    }
+    .pan-content .pan-primer span{
+        font-size: 10px;
+    } 
+    .pan-content .pan-primer figure{
+        width: 40px;
+        height: 40px;
+    }
+    .pan-content .pan-primer figure>img{
+        width: 30px;
+        height: 30px;
+    }
+    .pan-content .pan-primer:not(:last-child){
+        margin-right: 20px;
+    }
+    .pan-content .pan-primer:not(:last-child){
+        margin-right: 5px;
+    }
+    .experience-card{
+        width: 240px;
+    }
+}
+@media screen and (max-width: 480px){
+
+    
+
+
+
+ 
 }

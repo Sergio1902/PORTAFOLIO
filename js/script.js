@@ -64,13 +64,13 @@ let title = document.querySelectorAll(".acordeon-title")
 
 
 
-
-const $REDES = document.querySelector(".top-redes")
-$REDES.addEventListener('click', function () {
-window.scrollTo({
-    top:530,
-    behavior: "smooth"
-})
-})
+/* ::::::: FUNCION BTN - A SECTION ::::::::*/
+// const $REDES = document.querySelector(".top-redes")
+// $REDES.addEventListener('click', function () {
+// window.scrollTo({
+//     top:620,
+//     behavior: "smooth"
+// })
+// })
 
 
