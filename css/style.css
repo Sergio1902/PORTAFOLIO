@@ -472,12 +472,11 @@ ul{
     border-radius: 10px;
     box-shadow: 6px 6px 15px -10px rgba(0,0,0,0.75);
 }
-.desing-content-text h2{
-    color: black;
-}
 .desing-content-text p{
     color: rgb(82, 80, 80);
     padding-bottom: 15px;
+    font-size: 13px;
+    line-height: 20px;
     font-family: var(--font2);
 }
 .desing-content-text h4{
@@ -504,7 +503,6 @@ ul{
 
 .desing-content-card{
     width: 65%;
-    /* height: 280px; */
     border-radius: 10px;
     background-color: #e4a526;
     overflow: hidden;
@@ -544,6 +542,16 @@ ul{
 }
 .background .modal-text{
     padding: 30px 50px;
+}
+.modal-text ul{
+    padding-top: 15px;
+    font-family: var(--font2);
+    
+}
+.modal-text ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 

@@ -91,14 +91,8 @@
     }
 
      /* RESPONSIVE PROYECTS */
-     .desing-content-text h2{
-         font-size: 20px;
-     }
-     .desing-content-text h4{
-         padding: 0;
-     }
      .desing-content-text p{
-         padding-top: 15px;
+         font-size: 12px;
      }
     
 }
@@ -144,7 +138,7 @@
         order: 0;
     }
     .desing-content-text{
-        width: 40%;
+        width: 45%;
         height: 200px;
         margin: auto 0;
         padding: 20px;
@@ -153,9 +147,20 @@
     .desing-content-text p{
         font-size: 12px;
     }
+    .desing-content-card{
+        width: 70%;
+    }
 
 }
 @media screen and (max-width: 720px){
+
+    /* MODAL */
+    .modal-text h3{
+        font-size: 18px;  
+    }.modal-text h4{
+        font-size: 16px;
+    }
+    /****************************/
 
     .about-me-content{
         flex-direction: column-reverse;
@@ -220,7 +225,16 @@
         height: 350px;
     }
 
-
+    /* CARD - PROYECT   */
+    .desing-content-text h4{
+        font-size: 12px;
+    } 
+    .desing-content-text a{
+        width: 65%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    
 }
 
 @media screen and (max-width: 658px){
@@ -336,12 +350,34 @@
     .experience-card{
         width: 240px;
     } 
+
+    .desing-content-text p{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 500px){
 
+    .desing-content-text{
+        width: 72%;
+    }
+    .desing-content-card{
+        width: 90%;
+    }
+    .desing-content-text p{
+        padding-bottom: 10px;
+    }
+
+
+    /* MODAL */
     .mfp-inline-holder .mfp-content{
         width: 70%;
     }
+    .modal-text ul li{
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
 
     /* SLIDER */
     .slider-content{
@@ -415,5 +451,5 @@
         display: none;
     }
 }
-}
+
 
