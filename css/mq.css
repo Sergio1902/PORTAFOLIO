@@ -18,6 +18,10 @@
         width: 12%;
     }
     /******************/
+    /* RESPONSIVE PROYECTS */
+    .desing-content-text p{
+        line-height: 20px;
+    }
 }
 @media screen and (max-width: 1024px){
     .slider h1{
@@ -63,6 +67,8 @@
     .academic-training-card-global{
         padding: 0 60px;
     }
+
+    
 }
 @media screen and (max-width: 920px){
     .slider h1{
@@ -83,6 +89,18 @@
     .experience-card h3{
         margin-top: 5px;
     }
+
+     /* RESPONSIVE PROYECTS */
+     .desing-content-text h2{
+         font-size: 20px;
+     }
+     .desing-content-text h4{
+         padding: 0;
+     }
+     .desing-content-text p{
+         padding-top: 15px;
+     }
+    
 }
 @media screen and (max-width: 826px){
     .slider-content{
@@ -114,7 +132,27 @@
     }
     /***************************/
 
-    
+
+     /* RESPONSIVE PROYECTS */
+     .desing-content-global{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    .order-card{
+        order: 0;
+    }
+    .desing-content-text{
+        width: 40%;
+        height: 200px;
+        margin: auto 0;
+        padding: 20px;
+        margin-bottom:40px ;
+    }
+    .desing-content-text p{
+        font-size: 12px;
+    }
 
 }
 @media screen and (max-width: 720px){
