@@ -727,7 +727,6 @@ GO - TOP - BTN ARRIBA
     bottom: 0;
     right: 0;
     left: 0;
-    /* background-color: rgb(4,3,19); */
     background-image: url(../IMG/menu-flotante.jpg);
     background-position: center center;
     background-size: cover;
@@ -759,5 +758,22 @@ GO - TOP - BTN ARRIBA
     transition: all 0.3s ease-in-out;
     transform: scale(1.2); 
 }
+
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.1s ease;
+    transform: translate(-50%, -50%); 
+    pointer-events: none;
+    mix-blend-mode: difference; 
+}
+.menu-flotante ul li:hover ~ .cursor{
+    transform: scale(4);
+    transition: all 0.1s ease;
+}
+
 /***********************************************/
 

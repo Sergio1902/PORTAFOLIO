@@ -38,7 +38,6 @@ let title = document.querySelectorAll(".acordeon-title")
  }
  function removeClase() {
      for (let i = 0; i < title.length; i++) {
-         // para remover o añadir una clase se utiliza classList
          title[i].classList.remove("active")
      }
  }
