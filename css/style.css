@@ -437,33 +437,27 @@ ul{
 *****************************/
 .main-responsive{
     background-color: #dedede;
-    padding: 100px 0;
+    padding: 50px 0 100px;
 }
-
 .responsive-content{
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 90vh;
     overflow: hidden;
-    background-color: #fdb31f;
 }
 .responsive-content .mac{
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 20%;
-    width: 606px;
-    height: 489px;
 }
 .responsive-content .mac .imgBx{
     position: absolute;
-    top: 24px;
-    left: 25px;
-    width: 555px;
-    height: 313px;
+    top: 22px;
+    left: 20px;
+    width: 511px;
+    height: 306px;
     background-image: url(../IMG/responsive/desktopWebsite.jpg);
     background-position: top;
     background-size: 100%;
@@ -476,19 +470,16 @@ ul{
 
 .responsive-content .macBook{
     position: absolute;
-    top: 40%;
+    top: 35%;
     right: 0%;
     z-index: 1;
-    width: 609px;
-    height: 362px;
-    
 }
 .responsive-content .macBook .imgBx{
     position: absolute;
-    top: 20px;
-    left: 72px;
-    width: 465px;
-    height: 291px;
+    top: 15px;
+    left: 59px;
+    width: 382px;
+    height: 216px;
     background-image: url(../IMG/responsive/desktopWebsite2.jpg);
     background-position: top;
     background-size: 100%;
@@ -500,21 +491,25 @@ ul{
 }
 .responsive-content .iphone{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 12%;
     z-index: 2;
-    width: 245px;
-    height: 383px;
 }
 .responsive-content .iphone .imgBx{
     position: absolute;
-    top: 46px;
-    left: 44px;
-    width: 157px;
-    height: 282px;
-    background-color: #0f0;
+    top: 32px;
+    left: 30px;
+    width: 119px;
+    height: 211px;
+    background-image: url(../IMG/responsive/mobileWebsite.jpg);
+    background-position: top;
+    background-size: 100%;
+    transition: all 10s;
 }
-
+.responsive-content .iphone:hover .imgBx{
+    background-position: bottom;
+    transition: all 10s;
+}
 
         /* PROYECTS */
 .desing-content{
