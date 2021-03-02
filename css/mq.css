@@ -68,6 +68,35 @@
         padding: 0 60px;
     }
 
+    /* RESPONSIVE */
+    .responsive-content .mac{
+        left: 22%;
+        width: 450px;
+    }
+    .responsive-content .mac .imgBx{
+        top: 18px;
+        left: 17px;
+        width: 412px;
+        height: 252px;
+    }
+    .responsive-content .macBook{
+        width: 420px;
+    }
+    .responsive-content .macBook .imgBx{
+        top: 12px;
+        left: 48px;
+        width: 322px;
+        height: 183px;
+    }
+    .responsive-content .iphone{
+        width: 150px;
+    }
+    .responsive-content .iphone .imgBx{
+        top: 27px;
+        left: 25px;
+        width: 101px;
+        height: 177px;
+    }
     
 }
 @media screen and (max-width: 920px){
@@ -90,7 +119,40 @@
         margin-top: 5px;
     }
 
-     /* RESPONSIVE PROYECTS */
+    /* RESPONSIVE */
+   .responsive-content .mac{
+    left: 24%;
+    width: 340px;
+}
+.responsive-content .mac .imgBx{
+    top: 14px;
+    left: 12px;
+    width: 321px;
+    height: 189px;
+}
+.responsive-content .macBook{
+    width: 310px;
+    right: 8%;
+    top: 30%;
+}
+.responsive-content .macBook .imgBx{
+    top: 9px;
+    left: 36px;
+    width: 238px;
+    height: 138px;
+}
+.responsive-content .iphone{
+    width: 120px;
+    top: 30%;
+}
+.responsive-content .iphone .imgBx{
+    top: 22px;
+    left: 20px;
+    width: 80px;
+    height: 140px;
+}
+
+     /* PROYECTS */
      .desing-content-text p{
          font-size: 12px;
      }
@@ -126,8 +188,8 @@
     }
     /***************************/
 
-
-     /* RESPONSIVE PROYECTS */
+   
+     /*  PROYECTS */
      .desing-content-global{
         display: flex;
         align-items: center;
@@ -219,7 +281,7 @@
     /***********************************/
 
     .background{
-        background-image: url(/IMG/soporte2.png);
+        background-image: url(/IMG/SVG/soporte2.png);
         background-position: center center;
         background-size: cover;
         height: 350px;
@@ -234,7 +296,40 @@
         margin: 0 auto;
         font-size: 14px;
     }
-    
+
+    /* RESPONSIVE */
+   .responsive-content .mac{
+    left: 24%;
+    width: 280px;
+}
+.responsive-content .mac .imgBx{
+    top: 10px;
+    left: 10px;
+    width: 262px;
+    height: 157px;
+}
+.responsive-content .macBook{
+    width: 250px;
+    right: 12%;
+    top: 25%;
+}
+.responsive-content .macBook .imgBx{
+    top: 6px;
+    left: 28px;
+    width: 193px;
+    height: 110px;
+}
+.responsive-content .iphone{
+    width: 95px;
+    top: 25%;
+    left: 15%;
+}
+.responsive-content .iphone .imgBx{
+    top: 17px;
+    left: 16px;
+    width: 63px;
+    height: 112px;
+}
 }
 
 @media screen and (max-width: 658px){
@@ -354,6 +449,42 @@
     .desing-content-text p{
         font-size: 12px;
     }
+
+
+    /* RESPONSIVE */
+   .responsive-content .mac{
+    left: 26%;
+    width: 220px;   
+}
+.responsive-content .mac .imgBx{
+    top: 9px;
+    left: 9px;
+    width: 204px;
+    height: 123px;
+}
+.responsive-content .macBook{
+    width: 200px;
+    right: 25%;
+    top: 35%;
+}
+.responsive-content .macBook .imgBx{
+    top: 9px;
+    left: 36px;
+    width: 238px;
+    height: 138px;
+}
+.responsive-content .iphone{
+    width: 120px;
+    top: 30%;
+}
+.responsive-content .iphone .imgBx{
+    top: 22px;
+    left: 20px;
+    width: 80px;
+    height: 140px;
+}
+
+
 }
 @media screen and (max-width: 500px){
 

@@ -74,7 +74,7 @@ ul{
         MAIN-SLIDER
 ****************************/
 .main-slider{
-    background-image: url(../IMG/SLIDER.jpg);
+    background-image: url(../IMG/BACKGROUND/SLIDER.jpg);
     background-position: 50% 50%;
     background-size: cover;
     position: relative;
@@ -84,7 +84,7 @@ ul{
     content: "";
     position: absolute;
     bottom: 0;
-    background-image: url(../img/patter-bottom.png);
+    background-image: url(../img/BACKGROUND/patter-bottom.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -206,7 +206,7 @@ ul{
     display: block;
     width: 47px;
     height: 47px;
-    background-image: url(../IMG/fondo-icon.png);
+    background-image: url(../IMG/SVG/fondo-icon.png);
     background-position: cover;
     background-position: center center;
     color: white;
@@ -224,7 +224,7 @@ ul{
     height: 47px;
     left: 0;
     opacity: 0;
-    background-image: url(../IMG/fondo-icon-after.png);
+    background-image: url(../IMG/SVG/fondo-icon-after.png);
     background-position: cover;
     background-position: center center;
     transition: all 0.5s ease-in-out; 
@@ -390,7 +390,7 @@ ul{
     list-style-type: disc;
 }
 .main-experience{
-    background-image: url(../IMG/SLIDER-EXPERIENCIA.jpg);
+    background-image: url(../IMG/BACKGROUND/SLIDER-EXPERIENCIA.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
@@ -458,10 +458,9 @@ ul{
     left: 20px;
     width: 511px;
     height: 306px;
-    background-image: url(../IMG/responsive/desktopWebsite.jpg);
+    background-image: url(../IMG/RESPONSIVE/desktopWebsite.jpg);
     background-position: top;
     background-size: 100%;
-    transition: all 5s;
 }
 .responsive-content .mac:hover .imgBx{
     background-position: bottom;
@@ -480,10 +479,9 @@ ul{
     left: 59px;
     width: 382px;
     height: 216px;
-    background-image: url(../IMG/responsive/desktopWebsite2.jpg);
+    background-image: url(../IMG/RESPONSIVE/desktopWebsite2.jpg);
     background-position: top;
     background-size: 100%;
-    transition: all 5s;
 }
 .responsive-content .macBook:hover .imgBx{
     background-position: bottom;
@@ -501,10 +499,9 @@ ul{
     left: 30px;
     width: 119px;
     height: 211px;
-    background-image: url(../IMG/responsive/mobileWebsite.jpg);
+    background-image: url(../IMG/RESPONSIVE/mobileWebsite.jpg);
     background-position: top;
     background-size: 100%;
-    transition: all 10s;
 }
 .responsive-content .iphone:hover .imgBx{
     background-position: bottom;
@@ -597,7 +594,7 @@ ul{
     color: black;
 }
 .background{
-    background-image: url(/IMG/soporte.png);
+    background-image: url(/IMG/SVG/soporte.png);
     background-position: center center;
     background-size: cover;
     height: 350px;
@@ -789,7 +786,7 @@ GO - TOP - BTN ARRIBA
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(../IMG/menu-flotante.jpg);
+    background-image: url(../IMG/BACKGROUND/menu-flotante.jpg);
     background-position: center center;
     background-size: cover;
     text-align: center;
