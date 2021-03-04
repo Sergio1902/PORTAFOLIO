@@ -470,7 +470,7 @@ ul{
 .responsive-content .macBook{
     position: absolute;
     top: 35%;
-    left: 54%;
+    right: 2%;
     z-index: 1;
 }
 .responsive-content .macBook .imgBx{

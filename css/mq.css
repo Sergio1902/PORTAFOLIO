@@ -126,7 +126,7 @@
 
     /* RESPONSIVE */
     .responsive-content {
-        min-height: 500px;
+        min-height: 400px;
     }
    .responsive-content .mac{
     left: 24%;
@@ -141,7 +141,7 @@
 .responsive-content .macBook{
     width: 310px;
     right: 8%;
-    top: 32%;
+    top: 37%;
 }
 .responsive-content .macBook .imgBx{
     top: 9px;
@@ -151,7 +151,8 @@
 }
 .responsive-content .iphone{
     width: 120px;
-    top: 30%;
+    top: 32%;
+    left: 16%;
 }
 .responsive-content .iphone .imgBx{
     top: 22px;
@@ -260,6 +261,19 @@
     
 
 }
+@media screen and (max-width: 768px){
+    .responsive-content .iphone{
+        width: 120px;
+        top: 30%;
+        left: 13%;
+    }
+    .responsive-content .iphone .imgBx{
+        top: 22px;
+        left: 20px;
+        width: 80px;
+        height: 140px;
+    }
+}
 @media screen and (max-width: 720px){
 
     /* MODAL */
@@ -345,7 +359,7 @@
 
     /* RESPONSIVE */
     .responsive-content {
-        min-height: 400px;
+        min-height: 370px;
     }
    .responsive-content .mac{
     left: 24%;
@@ -502,7 +516,7 @@
     /* RESPONSIVE */
 
     .responsive-content {
-        min-height: 300px;
+        min-height: 280px;
     }
    .responsive-content .mac{
     left: 26%;
