@@ -661,4 +661,13 @@
 
 }
 
-
+@media screen and (max-width: 450px){
+    .background .modal-text {
+        padding: 30px 40px;
+    }
+    .modal-text ul li {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
