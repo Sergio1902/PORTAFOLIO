@@ -86,7 +86,7 @@ ul{
     content: "";
     position: absolute;
     bottom: 0;
-    background-image: url(../img/BACKGROUND/patter-bottom.png);
+    background-image: url(../IMG/LOGO-PAN/patter-bottom.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -460,7 +460,7 @@ ul{
     left: 20px;
     width: 511px;
     height: 306px;
-    background-image: url(../IMG/RESPONSIVE/desktopWebsite.jpg);
+    background-image: url(../IMG/RESPONSIVES/desktopWebsite.jpg);
     background-position: top;
     background-size: 100%;
     transition: all 5s;
@@ -482,7 +482,7 @@ ul{
     left: 59px;
     width: 382px;
     height: 216px;
-    background-image: url(../IMG/RESPONSIVE/desktopWebsite2.jpg);
+    background-image: url(../IMG/RESPONSIVES/desktopWebsite2.jpg);
     background-position: top;
     background-size: 100%;
     transition: all 5s;
@@ -503,7 +503,7 @@ ul{
     left: 30px;
     width: 119px;
     height: 211px;
-    background-image: url(../IMG/RESPONSIVE/mobileWebsite.jpg);
+    background-image: url(../IMG/RESPONSIVES/mobileWebsite.jpg);
     background-position: top;
     background-size: 100%;
     transition: all 10s;
