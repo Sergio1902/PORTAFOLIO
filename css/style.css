@@ -463,6 +463,7 @@ ul{
     background-image: url(../IMG/RESPONSIVE/desktopWebsite.jpg);
     background-position: top;
     background-size: 100%;
+    transition: all 5s;
 }
 .responsive-content .mac:hover .imgBx{
     background-position: bottom;
@@ -484,6 +485,7 @@ ul{
     background-image: url(../IMG/RESPONSIVE/desktopWebsite2.jpg);
     background-position: top;
     background-size: 100%;
+    transition: all 5s;
 }
 .responsive-content .macBook:hover .imgBx{
     background-position: bottom;
@@ -504,6 +506,7 @@ ul{
     background-image: url(../IMG/RESPONSIVE/mobileWebsite.jpg);
     background-position: top;
     background-size: 100%;
+    transition: all 10s;
 }
 .responsive-content .iphone:hover .imgBx{
     background-position: bottom;
