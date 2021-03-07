@@ -1,14 +1,6 @@
     // POPUD
     $(document).ready(function(){
         AOS.init();
-             $('.experience-card').magnificPopup({
-                
-            })
-             $(document).on('click', '.popup-modal-dismiss', function (e) {
-                 e.preventDefault();
-                 $.magnificPopup.close();
-                 
-             });
     });
      
     

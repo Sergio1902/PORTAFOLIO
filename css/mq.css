@@ -275,15 +275,7 @@
     }
 }
 @media screen and (max-width: 720px){
-
-    /* MODAL */
-    .modal-text h3{
-        font-size: 18px;  
-    }.modal-text h4{
-        font-size: 16px;
-    }
     /****************************/
-
     .about-me-content{
         flex-direction: column-reverse;
         padding: 10px 0 0;
@@ -569,16 +561,6 @@
         line-height: 18px;
     }
 
-
-    /* MODAL */
-    .mfp-inline-holder .mfp-content{
-        width: 70%;
-    }
-    .modal-text ul li{
-        margin-bottom: 10px;
-        font-size: 12px;
-        line-height: 20px;
-    }
     
 
     /* SLIDER */
@@ -661,13 +643,4 @@
 
 }
 
-@media screen and (max-width: 450px){
-    .background .modal-text {
-        padding: 30px 40px;
-    }
-    .modal-text ul li {
-        margin-bottom: 10px;
-        font-size: 10px;
-        line-height: 15px;
-    }
-}
+
