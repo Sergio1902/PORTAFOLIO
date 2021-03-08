@@ -430,7 +430,6 @@ ul{
     cursor: pointer;
     opacity: 0;
     background-color: transparent;
-    
     transition: opacity .5s;
 
 }
