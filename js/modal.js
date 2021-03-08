@@ -1,21 +1,21 @@
 export default function funcionModal() {
 
-const btn_open = document.querySelectorAll(".experience-card-global a")
+const btn_open = document.querySelectorAll(".experience-card-global span")
 const btn_close = document.querySelectorAll(".experience-card-global .btn_cerrar")
 const modal = document.querySelectorAll(".modal-container")
 
     const modal_container = document.getElementById('modal_container');
     const body = document.querySelector("body")
-console.log(btn_close)
+
 document.addEventListener("click", function (e) {
 
-    if(e.target.matches(".experience-card-global a")){
+    if(e.target.matches(".experience-card-global span")){
         body.classList.add("block-scroll")
     }
     if(e.target.matches(".experience-card-global .btn_cerrar")){
         body.classList.remove("block-scroll")
     }
-    switch (e.target) {
+    switch (e.target ) {
         case btn_open[0]:
             modal[0].classList.add("show")
             break;
