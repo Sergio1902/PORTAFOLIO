@@ -545,11 +545,22 @@
     font-size: 12px;
 }
 
+    /* MODAL */
+    .modal-text {
+        width: 480px;
+    }
+    .modal-text ul li {
+        font-size: 10px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+
+
 }
 @media screen and (max-width: 500px){
 
     .desing-content-text{
-        width: 72%;
+        width: 80%;
     }
     .desing-content-card{
         width: 90%;
@@ -637,6 +648,23 @@
         display: none;
     }
   
+    
+    /* MODAL */
+
+    .modal-text {
+        background-image: url(../IMG/SVG/soporte2.png);
+        width: 300px;
+        height: 320px;
+        padding: 50px 30px;
+    }
+    .modal-text ul{
+        width: 160px;
+    }
+    .modal-text ul li {
+        font-size: 9px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
 
 }
 
