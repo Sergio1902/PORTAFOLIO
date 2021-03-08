@@ -567,9 +567,7 @@
         height: 50vh;
         padding: 50px 20px;
     }
-    .slider-content {
-        align-items: flex-start;
-    }
+   
     .slider h1{
         font-size: 30px;
         line-height: 30px;
