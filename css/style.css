@@ -851,7 +851,7 @@ GO - TOP - BTN ARRIBA
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(../IMG/BACKGROUND/menu-flotante.jpg);
+    background-image: linear-gradient(0deg, #0b0258 0%, #030436 80%);
     background-position: center center;
     background-size: cover;
     text-align: center;
