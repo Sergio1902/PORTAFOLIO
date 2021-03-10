@@ -666,6 +666,12 @@
         margin-top: 5px;
     }
 
+    /* enlaces-redes-sociales */
+    .about-me-content .about-me-text ul li{
+        margin-bottom: 5px;
+        font-size: 11px;
+    }
+
 }
 
 
