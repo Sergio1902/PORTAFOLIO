@@ -382,9 +382,6 @@ ul{
     align-items: center;
 }
 
-
-
-
 /****************************
         MAIN-EXPERIENCIE
 *****************************/
@@ -431,7 +428,6 @@ ul{
     opacity: 0;
     background-color: transparent;
     transition: opacity .5s;
-
 }
 .experience-card h3{
     margin: 20px 0;
@@ -448,16 +444,13 @@ ul{
 .experience-card-global .experience-card:hover{
     background-color: rgba(131, 127, 127, 0.5);
     transform: scale(1.1);
-
-    
 }
 .experience-card-global .experience-card:hover span{
     opacity: 1;
     background-color: #ffbc31;
     color: #333560;
     transition: background-color .5s;
-    transition: opacity .5s;
-    
+    transition: opacity .5s; 
 }
 /* MODAL */
 .modal-container {
@@ -474,7 +467,7 @@ ul{
     width: 100vw;
     transition: opacity 0.3s ease;
     z-index: 10000;
-  }
+}
   .btn_cerrar {
     background-color: #47a386;
     border: 0;
@@ -487,7 +480,6 @@ ul{
     bottom: 15px;
     right: 20px;
     transition: all 0.5s;
-
 }
 .btn_cerrar:hover{
     transition: all 0.5s;
@@ -524,10 +516,6 @@ ul{
     margin-top: 5px;
     font-family: var(--font2);
 }
-
-
-
-
 /****************************
         MAIN-RESPONSIVE
 *****************************/
@@ -606,8 +594,9 @@ ul{
     background-position: bottom;
     transition: all 10s;
 }
-
-        /* PROYECTS */
+/****************************
+        MAIN-PROYECTOS
+*****************************/
 .desing-content{
     max-width: 1000px;
     width: 100%;
@@ -667,16 +656,6 @@ ul{
     transform: scale(1.03);
     transition: all 0.3s ease-out;
 }
-
-
-
-
-
-
-
-
-
-
 /************************
 FOOTER
 ************************/
@@ -722,66 +701,6 @@ FOOTER
     transition: all 0.5s ease-in-out;
     margin-bottom: 20px;
 }
-
-/************************
-GO - TOP - BTN ARRIBA
-************************/
-
-/* .go-top-container{
-    position: fixed;
-    bottom: 18%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    transition: 0.5s;
-}
-
-.go-to-button{
-    background-color: rgb(19, 21, 56);
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: -1;
-    transition: 0.5s;
-    position: relative;
-    
-}
-.go-to-button i{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 20px;
-    color: #fff;  
-}
-.show{
-    z-index: 10000;
-    transition: 0.5s;
-}
-
-.show .go-to-button{
-    animation: popup .5s ease-in-out;
-    width: 5rem;
-    height: 5rem;
-    z-index: 11;    
-}
-.show i{
-    transform: translate(-50%, -50%);
-} */
-
-/* @keyframes popup{
-    0%{
-        width: 0rem;
-        height: 0rem;
-    }
-    50%{
-        width: 8rem;
-        height: 8rem;
-    }
-    100%{
-        width: 5rem;
-        height: 5rem;
-    }
-} */
-
 
 /* BTN - ABAJO */
 
@@ -882,7 +801,6 @@ GO - TOP - BTN ARRIBA
     transition: all 0.3s ease-in-out;
     transform: scale(1.2); 
 }
-
 .cursor{
     position: fixed;
     width: 20px;
