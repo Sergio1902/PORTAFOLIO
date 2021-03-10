@@ -35,7 +35,7 @@ h4{
     font-weight: 400;
 }
 p{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 a{
@@ -172,11 +172,27 @@ ul{
     color: #333560;
 }
 .about-me-content .about-me-text p{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+.about-me-content .about-me-text ul{
+    margin-top: 10px;
+}
+.about-me-content .about-me-text ul li{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.text-redes ul li>a{
+    color: #333560;
+    transition: 0.3s;
+}
+.text-redes ul li>a:hover{
+    color: #a4a5aa;
+    transition: 0.3s;
+
 }
 .about-me-content .about-me-text ul li:nth-child(1)::before{
     content: "Nombre: ";
-    margin-right: 42px;
+    margin-right: 42px; 
 }
 .about-me-content .about-me-text ul li:nth-child(2)::before{
     content: "Teléfono: ";
@@ -189,9 +205,6 @@ ul{
 .about-me-content .about-me-text ul li:nth-child(4)::before{
     content: "Localidad: ";
     margin-right: 30px;
-}
-.about-me-content .about-me-text ul li{
-    margin-bottom: 5px;
 }
 .about-me-enlaces{
     display: flex;
