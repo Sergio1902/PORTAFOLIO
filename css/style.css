@@ -6,8 +6,8 @@
 :root{
     --font1: 'Playfair Display';
     --font2: 'Montserrat';
-    --black1: #0f1527;
-    --black2: #10093d;
+    --black1: rgb(19, 21, 56);
+    --black2: #150d57;
 }
 h1,h2,h3,h4,h5{
     margin: 0;
@@ -624,16 +624,16 @@ ul{
 }
 .desing-content-text{
     width: 30%;
-    height: 220px;
+    height: 210px;
     margin: auto 0;
     padding: 20px;
-    background-color: rgba(192, 185, 185, 0.5);
+    background-color: white;
     border-radius: 10px;
     box-shadow: 6px 6px 15px -10px rgba(0,0,0,0.75);
 }
 .desing-content-text p{
     color: rgb(82, 80, 80);
-    padding-bottom: 15px;
+    padding-bottom: 18px;
     font-size: 13px;
     line-height: 20px;
     font-family: var(--font2);
@@ -643,24 +643,26 @@ ul{
     padding: 10px 0;
 } 
 .desing-content-text a{
+    width: 50%;
+    font-size: 13px;
     display: block;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
-    background-color: #fdb31f;
-    color: white;
+    background-color: rgb(19, 21, 56);
     text-align: center;
-    color: #333560;
+    color: white;
     font-family: var(--font2);
-    font-weight: 700;
     transition: all 0.3s ease;
 }
-.desing-content-text a:hover{
-    box-shadow: 0px -5px 20px -11px rgba(0,0,0,0.56) inset;
+.left{
+    margin: 0 0 0 auto;
 }
-    .desing-content-card{
-    width: 65%;
+.desing-content-text a:hover{
+    background-color: rgb(36, 39, 102);
+}
+.desing-content-card{
+    width: 60%;
     border-radius: 10px;
-    background-color: #e4a526;
     overflow: hidden;
     transition: all 0.3s ease-out;
 }
