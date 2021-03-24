@@ -212,11 +212,13 @@ ul{
     font-size: 15px;
 }
 .text-redes ul li>a{
-    color: #333560;
+    color: #03052a;
     transition: 0.3s;
+    text-decoration: underline;
+    
 }
 .text-redes ul li>a:hover{
-    color: #a4a5aa;
+    color: #1c1ea7;
     transition: 0.3s;
 }
 .about-me-content .about-me-text ul li:nth-child(1)::before{
