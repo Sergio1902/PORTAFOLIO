@@ -94,6 +94,7 @@ ul{
     display: block;
 }
 .slider-content{
+    padding-left: 50px;
     position: relative;
     height: 95vh;
     display: flex;
@@ -106,6 +107,35 @@ ul{
 .slider h1{
     margin-bottom: 25px;   
     font-family: var(--font1);
+}
+/* ENLACES SLIDER */
+.contact-redes{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 2%;
+}
+.contact-redes a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(204, 197, 197, 0.5);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.contact-redes a>i{
+    /* color:var(--black1); */
+    color: black;
+}
+.contact-redes a:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+    background-color: rgba(248, 245, 245, 0.7);
 }
 
 /****************************
@@ -717,32 +747,40 @@ FOOTER
 }
 
 /* BTN - ABAJO */
-
+.btn-abajo-global{
+    position: absolute;
+    right: 1.5%;
+    top: 40%;
+}
+.btn-abajo-text{
+    font-size: 12px;
+    color: rgba(204, 197, 197, 0.5);
+    font-family: var(--font1);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn-abajo-text div:nth-child(6){
+    margin-bottom: 10px;
+}
 .btn-abajo{
     display: block;
-    position: absolute;
-    right: 0;
-    bottom: 15%;
-    width: 60px;
-    height: 60px;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(4, 4, 34);
+    color: black;
     cursor: pointer;
-    background-color: #f4f4f4;
-    transition: all 0.5s ease-in;
-    
+    background-color: rgba(204, 197, 197, 0.5);
+    transition: all 0.3s;
 }
 .btn-abajo:hover{
-    color: #f4f4f4;
-    background-color: rgb(23, 23, 68);
-    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    transition: all 0.3s;
+    background-color: rgba(248, 245, 245, 0.7);
 }
-
 
 
 /* BTN - HAMBURGUESA */
